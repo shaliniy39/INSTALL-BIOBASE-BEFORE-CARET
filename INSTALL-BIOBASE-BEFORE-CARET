@@ -1,0 +1,6 @@
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install("Biobase", version = "3.8")
+
+library(Biobase)
+library(caret)
